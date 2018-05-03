@@ -14,6 +14,7 @@
 		1763F88E209B90B200A49923 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1763F88C209B90B200A49923 /* LaunchScreen.storyboard */; };
 		1763F899209B90B200A49923 /* TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1763F898209B90B200A49923 /* TinderTests.swift */; };
 		1763F8A4209B90B200A49923 /* TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1763F8A3209B90B200A49923 /* TinderUITests.swift */; };
+		1763F8B4209B949800A49923 /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1763F8B3209B949800A49923 /* CardsViewController.swift */; };
 		66B83974F90AC5D464617B07 /* Pods_TinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BAEBB50A86C649FAC3648C /* Pods_TinderUITests.framework */; };
 		DE901AD68795AB6FDBD04373 /* Pods_Tinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E7015D882429D44303918B /* Pods_Tinder.framework */; };
 		E42389FD1520705B5DB42AE6 /* Pods_TinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7CCF9E9678955C8B07B7BE /* Pods_TinderTests.framework */; };
@@ -51,6 +52,7 @@
 		1763F8A3209B90B200A49923 /* TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderUITests.swift; sourceTree = "<group>"; };
 		1763F8A5209B90B200A49923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1763F8B1209B911700A49923 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1763F8B3209B949800A49923 /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
 		1D7CCF9E9678955C8B07B7BE /* Pods_TinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30E7015D882429D44303918B /* Pods_Tinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59FF09804DFE5643EA6C07EA /* Pods-Tinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tinder/Pods-Tinder.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 		1763F882209B90B200A49923 /* Tinder */ = {
 			isa = PBXGroup;
 			children = (
+				1763F8B2209B947A00A49923 /* View Controllers */,
 				1763F883209B90B200A49923 /* AppDelegate.swift */,
 				1763F885209B90B200A49923 /* ViewController.swift */,
 				1763F887209B90B200A49923 /* Main.storyboard */,
@@ -142,6 +145,14 @@
 				1763F8A5209B90B200A49923 /* Info.plist */,
 			);
 			path = TinderUITests;
+			sourceTree = "<group>";
+		};
+		1763F8B2209B947A00A49923 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1763F8B3209B949800A49923 /* CardsViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 		AE6B05F292B89A4EA42C81F1 /* Pods */ = {
@@ -459,6 +470,7 @@
 			files = (
 				1763F886209B90B200A49923 /* ViewController.swift in Sources */,
 				1763F884209B90B200A49923 /* AppDelegate.swift in Sources */,
+				1763F8B4209B949800A49923 /* CardsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
